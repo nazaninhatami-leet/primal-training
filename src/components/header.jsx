@@ -2,7 +2,7 @@ import logo from '../../src/assets/logo.svg';
 
 const Header = () => {
   return (
-    <div className="bg-primary h-20 sticky top-0 flex justify-between items-center px-6 border-b border-black">
+    <div className="bg-primary h-20 sticky top-0 flex justify-between items-center px-6 border-b border-black z-1">
       <span className="flex items-center">
         <span>
           <img className="w-[44px] h-[25px]" src={logo} alt="PrimalTraining" />
