@@ -11,7 +11,9 @@ const Header = () => {
           PrimalTraining
         </span>
       </span>
-      <span className="flex gap-x-15 tracking-[-1px]">
+      <span
+        className="flex gap-x-15 tracking-[-1px]"
+      >
         <span>
           <a className="hover:text-gray-800" href="http://localhost:5173/home/">
             HOME
