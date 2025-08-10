@@ -4,19 +4,3 @@
   --color-primary: oklch(94% 0.02 255.585);
   --color-secondary: oklch(67.3% 0.182 276.935);
 }
-
-/* .img {
-  background-color: black;
-  background-image: url('https://appeal-rice-stuff.figma.site/_assets/v10/4b3ae65ece4bb9cc6a2f518907d80df4631625fe.png');
-  background-size: cover;
-  background-position: center;
-  opacity: 0;
-  animation: showBg 1s ease forwards;
-  animation-delay: 0.5s;
-}
-
-@keyframes showBg {
-  to {
-    opacity: 1;
-  }
-} */
