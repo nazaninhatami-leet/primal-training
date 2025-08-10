@@ -1,7 +1,7 @@
 const Discover = () => {
   return (
     <div
-      className="bg-primary h-[39.5rem] grid grid-cols-[33.33%_66.66%]"
+      className="bg-primary h-auto grid grid-cols-[33.33%_66.66%]"
       style={{ fontFamily: "'Anek Tamil', sans-serif" }}
     >
       <div className="grid grid-rows-[24%_19%_19%_19%_19%]">
@@ -28,7 +28,7 @@ const Discover = () => {
             A community that pushes you to be your best.
           </p>
         </div>
-        <div className="flex flex-col justify-center pl-5 border-b border-black">
+        <div className="flex flex-col justify-center pl-5">
           <button
             className="hover:bg-black hover:text-amber-50 px-5 rounded-lg text-[17px] w-fit"
             style={{ wordSpacing: '0.2rem' }}
@@ -37,7 +37,12 @@ const Discover = () => {
           </button>
         </div>
       </div>
-      <div className="bg-black"></div>
+      <div className="bg-black">
+        <img
+          src="https://appeal-rice-stuff.figma.site/_assets/v10/c695b3171f8fc21be9574c7eeb04e5365a7dd496.png"
+          alt=""
+        />
+      </div>
     </div>
   );
 };
