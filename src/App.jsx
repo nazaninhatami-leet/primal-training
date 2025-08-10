@@ -4,6 +4,8 @@ import Committed from './components/committed';
 import Section2 from './components/section2';
 import Title2 from './components/title2';
 import Discover from './components/discover';
+import Join from './components/join';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -14,7 +16,8 @@ function App() {
       <Section2 />
       <Title2 />
       <Discover />
-      <div className="h-1000 bg-indigo-500"></div>
+      <Join />
+      <Footer />
     </>
   );
 }
