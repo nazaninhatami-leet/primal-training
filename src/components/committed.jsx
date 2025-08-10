@@ -1,3 +1,4 @@
+import { Link } from 'react-router';
 import img from '../assets/fa185f92457c01f4c2ab992f16dab02624634ed7.png';
 
 const Committed = () => {
@@ -14,8 +15,8 @@ const Committed = () => {
             programming. Whether you're building muscle or breaking PRs, we help
             you push past limits.
           </div>
-          <button className="hover:bg-black hover:text-amber-50 px-5 py-2 rounded-lg my-5 text-[14px]">
-            ABOUT US
+          <button className="hover:bg-black hover:text-amber-50 px-5 py-3 rounded-lg my-5 text-[14px]">
+            <Link to='/about'>ABOUT US</Link>
           </button>
         </div>
       </div>

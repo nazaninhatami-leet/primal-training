@@ -1,3 +1,5 @@
+import { Link } from 'react-router';
+
 const Join = () => {
   return (
     <div
@@ -10,7 +12,7 @@ const Join = () => {
           JOIN THE PRIMAL TRIBE TODAY!
         </h1>
         <button className="bg-primary text-gray-900 hover:bg-black hover:text-amber-50 font-medium px-4 py-2 w-fit rounded-md mt-1 [word-spacing:0.3rem]">
-          RESERVE YOUR SPOT
+          <Link to="reserve/">RESERVE YOUR SPOT</Link>
         </button>
       </div>
     </div>

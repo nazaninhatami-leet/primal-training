@@ -1,3 +1,4 @@
+import { Link } from 'react-router';
 import logo from '../../src/assets/logo.svg';
 
 const Header = () => {
@@ -13,25 +14,28 @@ const Header = () => {
       </span>
       <span className="flex gap-x-15 text-[15px] tracking-[-0.5px]">
         <span>
-          <a className="hover:text-gray-800" href="http://localhost:5173/home/">
+          <Link
+            className="hover:text-gray-800"
+            to="/"
+          >
             HOME
-          </a>
+          </Link>
         </span>
         <span>
-          <a
+          <Link
             className="hover:text-gray-800"
-            href="http://localhost:5173/about/"
+            to="http://localhost:5173/about/"
           >
             ABOUT
-          </a>
+          </Link>
         </span>
         <span>
-          <a
+          <Link
             className="bg-secondary hover:bg-black hover:text-amber-50 py-2.5 px-4 rounded-lg"
-            href="http://localhost:5173/about/"
+            to="http://localhost:5173/reserve/"
           >
             RESERVE &nbsp; YOUR &nbsp; SPOT
-          </a>
+          </Link>
         </span>
       </span>
     </div>
