@@ -1,13 +1,18 @@
-import { Guided } from './guided';
+import Guided from './guided';
 import Dynamic from './dynamic';
-import Img1 from './img1';
+import Img from './img';
 
 const Section2 = () => {
   return (
     <div className="bg-primary h-126 border-b border-black grid grid-cols-3">
       <Guided />
       <Dynamic />
-      <Img1 />
+      <Img
+        img={
+          'https://appeal-rice-stuff.figma.site/_assets/v10/4b3ae65ece4bb9cc6a2f518907d80df4631625fe.png'
+        }
+        alt={'trainer 2'}
+      />
     </div>
   );
 };

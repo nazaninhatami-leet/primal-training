@@ -1,4 +1,4 @@
-export function Guided() {
+export default function Guided() {
   return (
     <div className="border-r border-black px-5 py-1.5 tracking-tight flex flex-col gap-[16rem]">
       <h1

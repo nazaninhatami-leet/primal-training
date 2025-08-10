@@ -1,3 +1,5 @@
+import Img from './img';
+
 const Discover = () => {
   return (
     <div
@@ -30,17 +32,19 @@ const Discover = () => {
         </div>
         <div className="flex flex-col justify-center pl-5">
           <button
-            className="hover:bg-black hover:text-amber-50 px-5 rounded-lg text-[17px] w-fit"
+            className="hover:bg-black hover:text-amber-50 py-2 px-5 rounded-lg text-[17px] w-fit"
             style={{ wordSpacing: '0.2rem' }}
           >
             VIEW CLASSES
           </button>
         </div>
       </div>
-      <div className="bg-black">
-        <img
-          src="https://appeal-rice-stuff.figma.site/_assets/v10/c695b3171f8fc21be9574c7eeb04e5365a7dd496.png"
-          alt=""
+      <div>
+        <Img
+          img={
+            'https://appeal-rice-stuff.figma.site/_assets/v10/c695b3171f8fc21be9574c7eeb04e5365a7dd496.png'
+          }
+          alt={'trainer 2'}
         />
       </div>
     </div>

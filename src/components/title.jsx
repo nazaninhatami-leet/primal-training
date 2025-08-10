@@ -5,7 +5,7 @@ const Title = () => {
       style={{ fontFamily: "'Anek Tamil', sans-serif" }}
     >
       <span className="">TRAIN HARD.</span>
-      <span className="text-secondary">LIVE BETTER</span>
+      <span className="text-secondary">&nbsp;LIVE BETTER</span>
     </div>
   );
 };
