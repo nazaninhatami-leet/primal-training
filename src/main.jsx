@@ -3,12 +3,15 @@ import { createRoot } from 'react-dom/client';
 import './index.css';
 import App from './App.jsx';
 import { BrowserRouter, Routes, Route } from 'react-router';
+import Header from './components/header.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path='/home?/' element={<App />} />
+        <Route index element={<App />} />
+        <Route path="about/" element={<Header />} />
+        <Route path="reserve/" element={<Header />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>

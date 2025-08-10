@@ -6,6 +6,7 @@ import Title2 from './components/title2';
 import Discover from './components/discover';
 import Join from './components/join';
 import Footer from './components/footer';
+import Reserve from './components/reserve.jsx';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Discover />
       <Join />
       <Footer />
+      <Reserve />
     </>
   );
 }
