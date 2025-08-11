@@ -16,7 +16,6 @@ const AboutPage = () => {
       <Reconnect />
       <Join />
       <Footer />
-      {/* <div className="bg-amber-200 h-[48rem]"></div> */}
     </>
   );
 };
