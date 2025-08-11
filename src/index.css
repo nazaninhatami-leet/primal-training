@@ -4,3 +4,7 @@
   --color-primary: oklch(94% 0.02 255.585);
   --color-secondary: oklch(67.3% 0.182 276.935);
 }
+
+* {
+  font-family: 'Anek Tamil', sans-serif;
+}
