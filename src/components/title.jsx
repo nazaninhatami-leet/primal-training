@@ -1,7 +1,7 @@
 const Title = () => {
   return (
     <div
-      className="h-42 border-b border-black text-[6.5rem] px-5 font-extrabold tracking-[-0.4rem]"
+      className="h-42 border-b border-black text-[7.2rem] px-5 font-extrabold tracking-[-0.4rem]"
       style={{ fontFamily: "'Anek Tamil', sans-serif" }}
     >
       <span className="">TRAIN HARD.</span>

@@ -7,7 +7,7 @@ export default function Guided() {
       >
         GUIDED BY EXPERTS
       </h1>
-      <div className="font-[arial] text-[17px] mr-[3rem] tracking-[0.2px] leading-5.5">
+      <div className="font-[arial] text-[18px] mr-[3rem] tracking-[0.2px] leading-5.5">
         We believe in creating a positive environment where you can thrive.
         We're here to help you achieve your goals and unlock your full
         potential.

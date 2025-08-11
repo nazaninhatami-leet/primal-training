@@ -10,7 +10,7 @@ export default function Img({ img, alt }) {
       if (entry.isIntersecting) {
         timerRef.current = setTimeout(() => {
           setVisible(true);
-        }, 80);
+        }, 50);
       } else {
         clearTimeout(timerRef.current);
         setVisible(false);
@@ -29,11 +29,11 @@ export default function Img({ img, alt }) {
   return (
     <div
       ref={imgRef}
-      className={`bg-black h-126 flex items-center overflow-hidden filter transition-all duration-500 ease-in-out 
+      className={`h-126 flex items-center overflow-hidden filter transition-all duration-300 ease-in-out 
                    ${
                      visible
                        ? 'opacity-100 brightness-100'
-                       : 'opacity-100 brightness-0'
+                       : 'opacity-0 brightness-100'
                    }`}
     >
       {visible && (
